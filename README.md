@@ -12,3 +12,13 @@
 
 `npm i @types/styled-components -D`
 
+---
+
+## utilização de estilos apenas com TypeScript 
+  
+  Sobre escrevendo tipagens de uma biblioteca existente 
+
+  Tipagem de temas
+    arquivo styles.d.ts;
+    defaultTheme
+
