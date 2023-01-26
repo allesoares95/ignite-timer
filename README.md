@@ -57,7 +57,19 @@ Utilizar react router dom
 
 conecatando componente Router com outras pages;
 
-## Utilização de icons
+### Utilização de icons
+`npm i phosphor-react `
 
-npm i phosphor-react 
+### Biblioteca pra utilização de formularios
+React Hook Form.
+`npm install react-hook-form`
 
+### Biblioteca de validação 
+Zod ; https://github.com/colinhacks/zod
+
+`npm i zod`
+
+`npm i @hookform/resolvers`
+
+### pacote para datas date-fns
+`npm i date-fns`
