@@ -125,3 +125,7 @@ export function Home() {
   )
 }
 ```
+
+
+Utilização da biblioteca immerjs, para trabalhar com dados imutaveis ;
+` npm i immer `
