@@ -12,7 +12,7 @@
 
    Criação de um cronômetro para atividades<br>
    Registros de históricos de atividades<br>
-   Históricos armazenados anteriormente <br>
+   Históricos armazenado anteriormente <br>
 </div>
 <br><br>
 <div align="center">
@@ -25,7 +25,7 @@
 ```
 terminal:
 
-# clone o repositorio do github
+# clone o repositório do github
 $ git clone https://github.com/allesoares95/ignite-timer
 
 # acessar a pasta do projeto pelo terminal 
@@ -47,17 +47,17 @@ $ npm run dev
  ``` 
  CSS styled-components - aprimorando estilização do React
 
- ESLint - utilização para um codigo padrão 
+ ESLint - utilização para um código padrão 
 
- React Router Dom - lidando com varias rotas
+ React Router Dom - lidando com várias rota
 
  Phospor React - utilização de icons
 
- React Hook Form / resolvers / zod - utilização de formularios
+ React Hook Form / resolvers / zod - utilização de formulários
 
  Date fns - Manipulação de datas
 
- Reducer - formatação de dados complexo 
+ Reducer - formatação de dados complexos
 
  Context API - utilizando useState, useEffect e useContext
 
@@ -83,7 +83,7 @@ $ npm run dev
 
 ## ESLint 
 
-instalando como dependencia de desenvolvimento
+instalando como dependência de desenvolvimento
 
 ` npm i eslint -D`
 
@@ -91,11 +91,11 @@ pacote da rocketseat ;
 
 `npm i @rocketseat/eslint-config -D`
 
-para testar e corrigir erros 
+para testar e corrigir erros ;
 
 `npx eslint src --ext .ts,.tsx --fix`
 
-para deixar automatizado o test crie um script no package.json em debug 
+para deixar automatizado o test crie um script no package.json em debug ;
 
 ` lint": "eslint src --ext .ts,.tsx --fix `
 
@@ -116,18 +116,18 @@ para fixar os erros
 
 <br><br>
 
-## Lidando com varias rotas .
+## Lidando com várias rotas.
 
 Utilizar react router dom 
 
 ` npm i react-router-dom `
 
-conecatando componente Router com outras pages;
+conectando componente Router com outras pages;
 
 ### Utilização de icons
 `npm i phosphor-react `
 
-### Biblioteca pra utilização de formularios
+### Biblioteca para utilização de formulários
 React Hook Form.
 `npm install react-hook-form`
 
@@ -142,18 +142,18 @@ Zod ; https://github.com/colinhacks/zod
 `npm i date-fns`
 
 ## ImmerJS
-Utilização da biblioteca immerjs, para trabalhar com dados imutaveis
+Utilização da biblioteca ImmerJS, para trabalhar com dados imutáveis.
 
 <br>
 
 ` npm i immer `
 ## Utilização de Context API
--> Permite compartilharmos informações entre vários componentes ao mesmo tempo
+-> Permite compartilharmos informações entre vários componentes ao mesmo tempo.
 
 
 Utilização de Contexto do activeCycle se for alterada no NewCycleForm era será 
 altera em todos que estão utilizando o mesmo contexto;
-Utilização sem propriedades nos componentes e mesmo assim eles consegue acessar 
+Utilização sem propriedades nos componentes e mesmo assim eles conseguem acessar 
 uma informação do componente pai da Homepage;
 
 ```tsx
@@ -198,3 +198,4 @@ export function Home() {
 }
 ```
 <br><br>
+
