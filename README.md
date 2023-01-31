@@ -10,9 +10,9 @@
 <div align="center">
  <h2>Projeto desenvolvido durante o curso ReactJS na @rocketseat.</h2><br>
 
-   Criação de um cronômetro para atividades<br>
-   Registros de históricos de atividades<br>
-   Históricos armazenado anteriormente <br>
+   Criação de um cronômetro para atividades.<br>
+   Registros de históricos de atividades.<br>
+   Históricos armazenados anteriormente.<br>
 </div>
 <br><br>
 <div align="center">
@@ -25,16 +25,16 @@
 ```
 terminal:
 
-# clone o repositório do github
+# clone o repositório do github.
 $ git clone https://github.com/allesoares95/ignite-timer
 
-# acessar a pasta do projeto pelo terminal 
+# acessar a pasta do projeto pelo terminal.
 $ cd ignite-timer
 
-# instalação das dependências
+# instalação das dependências.
 $ npm i
 
-# rodar aplicação
+# rodar aplicação.
 $ npm run dev
 
 # aplicação será aberta no http://localhost:5173
@@ -74,7 +74,7 @@ $ npm run dev
 
 ## utilização de estilos apenas com TypeScript 
   
-* Sobre escrevendo tipagens de uma biblioteca existente 
+* Reescrevendo tipagens de uma biblioteca existente.
 
   * Tipagem de temas
   * arquivo styles.d.ts
@@ -150,12 +150,6 @@ Utilização da biblioteca ImmerJS, para trabalhar com dados imutáveis.
 ## Utilização de Context API
 -> Permite compartilharmos informações entre vários componentes ao mesmo tempo.
 
-
-Utilização de Contexto do activeCycle se for alterada no NewCycleForm era será 
-altera em todos que estão utilizando o mesmo contexto;
-Utilização sem propriedades nos componentes e mesmo assim eles conseguem acessar 
-uma informação do componente pai da Homepage;
-
 ```tsx
 import { createContext, useContext, useState } from 'react'
 
@@ -198,4 +192,3 @@ export function Home() {
 }
 ```
 <br><br>
-
