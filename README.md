@@ -151,44 +151,44 @@ Utilização da biblioteca ImmerJS, para trabalhar com dados imutáveis.
 -> Permite compartilharmos informações entre vários componentes ao mesmo tempo.
 
 ```tsx
-import { createContext, useContext, useState } from 'react'
+// import { createContext, useContext, useState } from 'react'
 
-const CyclesContext = createContext({} as any)
+// const CyclesContext = createContext({} as any)
 
-function NewCycleForm() {
-  let { activeCycle, setActiveCycle } = useContext(CyclesContext)
+// function NewCycleForm() {
+//   let { activeCycle, setActiveCycle } = useContext(CyclesContext)
 
-  return (
-    <h1>
-      NewCycleForm: {activeCycle}
-      <button
-        onClick={() => {
-          setActiveCycle = 2
-        }}
-      >
-        Alterar ciclo ativo
-      </button>
-    </h1>
-  )
-}
+//   return (
+//     <h1>
+//       NewCycleForm: {activeCycle}
+//       <button
+//         onClick={() => {
+//           setActiveCycle = 2
+//         }}
+//       >
+//         Alterar ciclo ativo
+//       </button>
+//     </h1>
+//   )
+// }
 
-function Countdown() {
-  const { activeCycle } = useContext(CyclesContext)
+// function Countdown() {
+//   const { activeCycle } = useContext(CyclesContext)
 
-  return <h1>Countdown: {activeCycle}</h1>
-}
+//   return <h1>Countdown: {activeCycle}</h1>
+// }
 
-export function Home() {
-  const [activeCycle, setActiveCycle] = useState(0)
+// export function Home() {
+//   const [activeCycle, setActiveCycle] = useState(0)
 
-  return (
-    <CyclesContext.Provider value={{ activeCycle, setActiveCycle }}>
-      <div>
-        <NewCycleForm />
-        <Countdown />
-      </div>
-    </CyclesContext.Provider>
-  )
-}
-```
+//   return (
+//     <CyclesContext.Provider value={{ activeCycle, setActiveCycle }}>
+//       <div>
+//         <NewCycleForm />
+//         <Countdown />
+//       </div>
+//     </CyclesContext.Provider>
+//   )
+// }
+// ```
 <br><br>
